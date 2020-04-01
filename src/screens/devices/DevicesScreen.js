@@ -44,9 +44,9 @@ class DevicesScreen extends React.Component {
             paddingTop: 40
           }}>
           <Header />
-          <Grid item xs={12} style={{ backgroundColor: "#FF7043",  
-            height: 500, 
-            width: 600, 
+          <Grid container style={{ backgroundColor: "#FF7043",  
+            height: 500,
+            maxWidth: 600,
             textAlign: "center", 
             justifyContent: "center" }}>
             <Grid item xs={12} style={{position: "absolute", top: "45%", left: "45%", width: "90px", height: "90px", color: "#fff", textTransform: "uppercase"}}>

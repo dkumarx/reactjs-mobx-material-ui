@@ -22,7 +22,7 @@ const onNotifyMe = () => {
 
 const LoggedInView = props => {
     return (
-      <div style={{backgroundColor: "#D76844", paddingTop: 20, paddingBottom: 20, height: 40, justifyContent:"center", width: "100%"}}>
+      <div style={{backgroundColor: "#D76844", paddingTop: 20, paddingBottom: 20, height: 40, maxWidth: 600, justifyContent:"center", width: "100%"}}>
         <Button variant="contained" size="medium" style={{backgroundColor: "#fff", color: "#36474F", marginRight: 20}} onClick={() => onNotifyMe()}>Notify</Button>
         <Button variant="contained" size="medium" style={{backgroundColor: "#36474F", color: "#fff"}}  onClick={() => onLogout()}>Logout</Button>
       </div>
